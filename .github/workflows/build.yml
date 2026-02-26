@@ -18,8 +18,3 @@ jobs:
         with:
           push: true
           tags: ghcr.io/khodor04/mautic-custom:latest
-```
-
-**Step 4 — After GitHub Action runs successfully**, update the Image field in Coolify for all three mautic services (web, cron, worker) to:
-```
-ghcr.io/khodor04/mautic-custom:latest
