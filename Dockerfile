@@ -1,1 +1,1 @@
-FROM mautic/mautic:latest
+FROM mautic/mautic:7.0.0-apache
